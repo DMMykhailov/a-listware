@@ -1,0 +1,21 @@
+{
+  "name": "task-runner",
+  "version": "0.0.1",
+  "description": "AdFlow – Ad Campaign Processing Job Runner",
+  "license": "MIT",
+  "author": "Deema",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node --experimental-strip-types src/server.ts",
+    "dev": "node --experimental-strip-types --watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.19.15"
+  }
+}
